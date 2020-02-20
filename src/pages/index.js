@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
+  const siteTitle = 'Tyson\'s Wonderful Blog'
   const posts = data.allMarkdownRemark.edges
 
   return (
